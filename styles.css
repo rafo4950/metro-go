@@ -1,0 +1,79 @@
+
+.main-container {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.logo {
+  height: 208px;
+  width: 200px;
+  background-image: url('./assets/brand/logo.png');
+  margin: 40px auto;
+}
+
+.form {
+  width: 100%; 
+  height: calc(100% - 288px); 
+  background-color: blue; 
+  border-radius: 0 25px 0 0; 
+  margin-right: -40px;
+}
+
+.form-button {
+  text-decoration: underline;
+  color: white;
+  font-size: 30px;
+}
+
+.form-field {
+  background-color: white;
+  font-size: 40px; 
+  border-radius: 10px; 
+  width: 100%;
+}
+
+.first-section {
+  height: 100%;
+}
+
+.second-section {
+  background-image: url('./assets/brand/metrogo-bg.jpeg');
+  position: relative;
+}
+
+.tab {
+  background-color: blue;
+  border-radius: 25px;
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+}
+
+.message-one {
+  font-size: 30px;
+  color: #e8ec19;
+}
+
+.bottom-container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 120px;
+}
+
+.message-two {
+  font-size: 30px;
+  color: #e8ec19;
+  width: 40%;
+}
+
+.icons {
+  width: 60%;
+}
+
+.icons img {
+  height: 50px;
+  width: 50px;
+}
